@@ -3,11 +3,11 @@ Simple command line pomodoro program to focus.
 
 |Menu|
 |-|
-|![img](https://raw.github.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132617.png)|
+|![img](https://github.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132617.png)|
 |Concentration Timer|
-|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132723.png)|
+|![img](https://github.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132723.png)|
 |Break Timer|
-|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132833.png)
+|![img](https://github.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132833.png)
 
 The pomodoro-cli program alows the user to have a simple and visually attractive pomodoro timer on their terminal.
 
