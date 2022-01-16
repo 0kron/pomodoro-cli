@@ -1,9 +1,16 @@
 # Pomodoro-cli
 Simple command line pomodoro program to focus.
 
-|Applets|Menu|Android|
-|-|-|-|
-|![img](https://raw.githubusercontent.com/adi1090x/files/master/rofi/previews/applets/main.gif)|![img](https://raw.githubusercontent.com/adi1090x/files/master/rofi/previews/menu/main.gif)|![img](https://raw.githubusercontent.com/adi1090x/files/master/rofi/previews/android/main.gif)|
+|Menu|
+|-|
+|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132617.png)|
+|-|
+|Concentration Timer|
+|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132723.png)|
+|-|
+|Break Timer|
+|-|
+|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132833.png)
 
 The pomodoro-cli program alows the user to have a simple and visually attractive pomodoro timer on their terminal.
 
