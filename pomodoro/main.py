@@ -2,7 +2,7 @@ from time import ctime, sleep
 from os import system
 from term_avanzada import coloredPrint, tcolor 
 
-#Default terminal size Linux = 79
+#Default terminal size = 79 <- change this value to allocate your default terminal size no less than 50 columns
 terminal_size = 79
 
 formato = [
@@ -83,6 +83,7 @@ def toMinutes(segundos):
     else: return f"{horas}:{minutos}:{segundos}"
 
 def toSeconds(minutos): 
+    minutos = str(minutos)
     formato = minutos.find(":")
     try:
         if formato > -1:
@@ -137,6 +138,7 @@ def pomodoro(ptime, ttime, rtime=300):
           sleep(1)
       
       system("notify-send 'you can rest now my friend...'") ##Message of the break
+      
       for j in range(rtime): 
           curr = ctime()
           system("clear")
