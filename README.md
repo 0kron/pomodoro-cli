@@ -26,4 +26,17 @@ Copy the files in this repository to a folder of your combenience and make sure 
 python --version
 Python 3.10.X
 ```
-Note that this program works with some new features just included on Python 3.10, an update version of Python can be located [here](https://www.python.org/downloads/)
+Note that this program works with some new features just included on Python 3.10, an update version of Python can be located [here](https://www.python.org/downloads/). 
+
+To run the program follow the following command: 
+```
+> python3 C:\Users\user\path\of\the\folder\main.py
+```
+Or create and alias using the `DOSKEY` command like: 
+```
+> DOSKEY pomodoro=python3 C:\Users\user\path\of\the\folder\main.py
+```
+To that last option follow [this](https://shivamethical.medium.com/create-command-line-alias-in-windows-76684635b4c4) guide for creating a `*.bat` file.
+
+
+**Note:** this program is for free use, recommendations and questions may be asked through this repository.
