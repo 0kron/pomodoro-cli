@@ -2,7 +2,7 @@
 Simple command line pomodoro program to focus.
 
 |Menu|
-|![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132617.png)|
+|![img](https://raw.github.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132617.png)|
 |Concentration Timer|
 |![img](https://raw.githubusercontent.com/0kron/pomodoro-cli/blob/main/screenshot_20220116_132723.png)|
 |Break Timer|
