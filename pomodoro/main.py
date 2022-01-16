@@ -2,7 +2,7 @@ from time import ctime, sleep
 from os import system
 from term_avanzada import coloredPrint, tcolor 
 
-#Vscode == 157, Default = 79
+#Default terminal size Linux = 79
 terminal_size = 79
 
 formato = [
@@ -164,8 +164,8 @@ def main():
         coloredPrint("\t[quit] Leave program.", tcolor.GREY)
         choice = input(": ").lower()
 
-        if choice == "1": pomodoro(45, 5)
-        elif choice == "2": pomodoro(20, 3)
+        if choice == "1": pomodoro(toSeconds(45), 5)
+        elif choice == "2": pomodoro(toSeconds(20), 3)
         elif choice == "3": 
           system("clear")
           ptime = toSeconds(input("Minutes: "))
