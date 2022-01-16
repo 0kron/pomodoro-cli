@@ -26,4 +26,4 @@ Copy the files in this repository to a folder of your combenience and make sure 
 python --version
 Python 3.10.X
 ```
-Note that this program works with some new features just included on Python 3.10, an update version of Python can be located (here)[https://www.python.org/downloads/]
+Note that this program works with some new features just included on Python 3.10, an update version of Python can be located [here](https://www.python.org/downloads/)
