@@ -1,7 +1,6 @@
 # Pomodoro-cli
 Simple command line pomodoro program to focus.
 
-## Working on python
 The pomodoro-cli program alows the user to have a simple and visually attractive pomodoro timer on their terminal.
 
 ## Installation
