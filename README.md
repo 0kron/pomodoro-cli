@@ -10,7 +10,7 @@ To install the program you can do one of the following methods:
 ### Linux
 `cd` to the directory where you want to install the program and run: 
 ```
-$ git clone https://github.com/0kron/pomodoro-cli
+$ git clone https://github.com/0kron/pomodoro-cli/pomodoro
 ```
 You can run the program using
 ```
