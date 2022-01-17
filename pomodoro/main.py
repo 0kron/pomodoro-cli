@@ -172,7 +172,7 @@ def main():
           system("clear")
           ptime = toSeconds(input("Minutes: "))
           ttime = int(input("Repetitions: "))
-          rtime = toSeconds(input("Rest time:"))
+          rtime = toSeconds(input("Rest time: "))
           choice = input("Confirm (y/n): ").lower()
           if choice.find("y") > -1: pomodoro(ptime, ttime, rtime)
           else: 
