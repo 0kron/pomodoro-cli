@@ -14,7 +14,7 @@ The pomodoro-cli program alows the user to have a simple and visually attractive
 ## Installation
 To install the program you can do one of the following methods: 
 
-### Linux and MacOS
+### Linux
 `cd` to the directory where you want to install the program and run: 
 ```
 $ git clone https://github.com/0kron/pomodoro-cli/pomodoro
@@ -27,6 +27,15 @@ Or assaign an `alias` to the command on `.bashrc`:
 ```
 alias pomodoro='python3 $HOME/path/to/the/git_clone/main.py
 ```
+
+### MacOS
+Open the Terminal application and use the comand `cd` to go into the chosen directory, for example dir *programs*: 
+``` cd Desktop/programs```
+
+Then, make sure Python is working on your Mac with the following: 
+```python -V
+python3 -V```
+> Expected output: Python 2.7.16 or higher.
 
 ### Windows
 Copy the files in this repository to a folder of your combenience and make sure you have Python in your PATH by running: 
