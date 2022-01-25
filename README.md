@@ -30,12 +30,23 @@ alias pomodoro='python3 $HOME/path/to/the/git_clone/main.py
 
 ### MacOS
 Open the Terminal application and use the comand `cd` to go into the chosen directory, for example dir *programs*: 
-``` cd Desktop/programs```
+```
+cd Desktop/programs/
+```
 
 Then, make sure Python is working on your Mac with the following: 
-```python -V
-python3 -V```
+```
+python -V
+python3 -V
+```
 > Expected output: Python 2.7.16 or higher.
+
+Then, use the following command: 
+```
+ git clone https://github.com/0kron/pomodoro-cli/pomodoro
+```
+The program will download and clone inside a folder called *pomodoro* in the chosen directory.
+
 
 ### Windows
 Copy the files in this repository to a folder of your combenience and make sure you have Python in your PATH by running: 
