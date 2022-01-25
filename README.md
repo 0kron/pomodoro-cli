@@ -55,7 +55,7 @@ For not using the absolute path when running the program there are two easy ways
 If an error like: 
 > SyntaxError: Non-ASCII character '\xe2' in file pomodoro-cli/pomodoro/main.py on line 9.
 
-Follow this guide to change your terminal font. Recommended fonts: 
+Follow [this](https://support.apple.com/guide/terminal/change-profiles-text-preferences-trmltxt/mac) guide to change your terminal font. Recommended fonts: 
 - Nerd Fonts. 
 - Source Code Pro. 
 - Hack. 
