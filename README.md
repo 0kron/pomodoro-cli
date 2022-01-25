@@ -17,15 +17,15 @@ To install the program you can do one of the following methods:
 ### Linux
 `cd` to the directory where you want to install the program and run: 
 ```
-$ git clone https://github.com/0kron/pomodoro-cli/pomodoro
+$ git clone https://github.com/0kron/pomodoro-cli
 ```
 You can run the program using
 ```
-$ python3 $HOME/path/to/the/git_clone/main.py
+$ python3 $HOME/path/to/the/git_clone/pomodoro/main.py
 ```
 Or assaign an `alias` to the command on `.bashrc`: 
 ```
-alias pomodoro='python3 $HOME/path/to/the/git_clone/main.py
+alias pomodoro='python3 $HOME/path/to/the/git_clone/pomodoro/main.py
 ```
 
 ### MacOS
@@ -43,9 +43,24 @@ python3 -V
 
 Then, use the following command: 
 ```
- git clone https://github.com/0kron/pomodoro-cli/pomodoro
+ git clone https://github.com/0kron/pomodoro-cli
 ```
-The program will download and clone inside a folder called *pomodoro* in the chosen directory.
+The program will download and clone inside a folder called *pomodoro* in the chosen directory, if it is your first time installing a project from a Git repository probably you will need to add the **Development tools** to your enviroment, if a window opens just click the `Install` button, there is no need to add *Xcode* to your computer. 
+Finally run the program inside your terminal with: 
+
+```
+python pomodoro-cli/pomodoro/main.py
+```
+For not using the absolute path when running the program there are two easy ways to add an *alias* to the program. The methods can be founded [here](https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/). 
+If an error like: 
+> SyntaxError: Non-ASCII character '\xe2' in file pomodoro-cli/pomodoro/main.py on line 9.
+
+Follow this guide to change your terminal font. Recommended fonts: 
+- Nerd Fonts. 
+- Source Code Pro. 
+- Hack. 
+- DejaVu Sans Mono. 
+- Roboto Mono.
 
 
 ### Windows
